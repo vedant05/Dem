@@ -19,7 +19,7 @@ function VerifyLinks()
     				    var option = element.all(by.xpath('//ul[@id="jb-primary-links"]/li')).get(index);
     				    option.click();
     				    browser.sleep(4000);
-    				   
+    				   browser.sleep(4000);
     			};
     			
     				browser.actions().mouseMove(LinksPlanATrip).perform();
